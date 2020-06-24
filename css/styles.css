@@ -112,6 +112,9 @@ section{
     opacity:0.7;
     color: white;
 }
+.card-footer{
+    background-color: rgba(0,0,0,0.5);
+}
 /* Extra small devices (576px and less)*/
 @media (max-width: 575px){
     .navbar-brand h1{
