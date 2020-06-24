@@ -1,0 +1,181 @@
+body{
+    background-color: darkolivegreen;
+    color:white;
+    font-family:'Lora',serif;
+    
+}
+
+#header-nav{
+    background-color:orange;
+}
+.navbar-brand{
+    margin-right: 0;
+}
+.navbar-brand div{
+    float: left;
+}
+
+#logo-img{
+    background: url('images/Picture2.jpg') no-repeat;
+    border-radius: 50%;
+    width:100px;
+    height:100px;
+    margin-right: 8px;
+}
+.navbar-brand h1{
+   padding-top:40px ;
+   color:darkred;
+   text-shadow: 0.8px 0.8px 0.8px darkolivegreen;
+   font-size: 2.5em;
+   margin-bottom:0;
+   padding-bottom: 0;
+   line-height: 32px;
+}
+.navbar-brand span{
+    padding-left:120px;
+    margin:0;
+    color: darkolivegreen;
+    font-weight: bold;
+}
+
+.navbar-brand a:hover, .navbar-brand a:focus{
+    text-decoration: none;
+}
+.navbar-toggler{
+    padding:1px 8px 1px 8px;
+    font-size:1rem;
+}
+.navbar-light .navbar-toggler{
+    border:2px solid darkred;
+}
+.navbar-light .navbar-nav .nav-link{
+    font-size: 16px;
+    text-align: center;
+    color :darkred;
+}   
+.fa{
+    font-size: 28px;
+    padding-right:4px;
+}
+#phone{
+    font-size : 30px;
+    text-align: right;
+    margin-top:0;
+    padding-bottom:0;
+}
+#phone a{
+    text-align: right;
+}
+.nav-item div{
+    padding-left:40px;
+    color:darkolivegreen;
+    font-weight: bold;
+}
+
+section{
+    background-color:darkolivegreen;
+}
+.jumbotron{
+    padding:0;
+    margin-top:15px;
+    margin-bottom:30px;
+    box-shadow: 0 0 50px black;
+    border-radius: 0;
+}
+#menu, #map, #specials{
+    height:200px;
+    width:100%;
+    margin-bottom:15px;
+    box-shadow: 0 0 30px black;
+    overflow:hidden;
+    position:relative;
+}
+#menu:hover, #map:hover, #specials:hover{
+    box-shadow: 0 0 50px black;
+}
+#menu{
+    background: url('images/menusquare.jpg') no-repeat;
+    background-position: center;
+}
+#specials{
+    background: url('images/specials.jpg') no-repeat;
+    background-position: center;
+}
+#menu span, #specials span, #map span{
+    position:absolute;
+    bottom:0;
+    right:0;
+    width: 100%;
+    text-align: center;
+    font-size:2em;
+    background-color: black;
+    opacity:0.7;
+    color: white;
+}
+/* Extra small devices (576px and less)*/
+@media (max-width: 575px){
+    .navbar-brand h1{
+        padding-top:20px ;
+        font-size: 2em;
+        margin-bottom:7px;
+        padding-bottom: 0;
+        line-height:1vw;
+     }
+     .navbar-brand span{
+        padding-left:80px;
+        margin:0;
+        font-size: 16px;
+     }
+    .fa{
+        font-size: 1em;
+        padding-right:8px;
+    }
+    .navbar-light .navbar-nav .nav-link{
+        font-size: 20px;
+        line-height: 1;
+    } 
+    #menu, #map, #specials{
+        height:200px;
+    }
+    #menu span, #specials span, #map span{
+        font-size:1.5em;
+    }
+
+}
+/* Small devices (landscape phones, 576px and up)*/
+@media (min-width: 576px) and (max-width: 767px){
+.fa{
+    font-size: 1em;
+    padding-right:8px;
+}   
+.navbar-light .navbar-nav .nav-link{
+    font-size: 20px;
+} 
+}
+/* Medium devices (tablets, 768px and up)*/
+@media (min-width: 768px) and (max-width: 991px) {
+    .navbar-expand-md .navbar-nav .nav-link{
+     padding-right: 0px;
+   }
+   .jumbotron{
+    background : url("images/jumbotron_768.jpg") no-repeat;
+    height:405px;
+    }
+}
+/* Large devices (desktops, 992px and up)*/
+@media (min-width: 992px) and (max-width: 1199px) {
+    .navbar-expand-md .navbar-nav .nav-link{
+        padding-right: 0px;
+      }
+      .jumbotron{
+       background : url("images/jumbotron_992.jpg") no-repeat;
+       height:524px;
+       }
+}
+/* Extra large devices (large desktops, 1200px and up)*/
+@media (min-width: 1200px) {
+    .jumbotron{
+    background : url("images/jumbotron_1200.jpg") no-repeat;
+    height:635px;
+    }
+}
