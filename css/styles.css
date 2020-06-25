@@ -75,6 +75,57 @@ body{
 section{
     background-color:darkolivegreen;
 }
+section h2{
+    margin-top:35px;
+    margin-bottom:30px;
+    font-size: 40px;
+    color:orange;
+}
+.punch p{
+    font-size:40px;
+    line-height: normal;
+    margin-bottom:0;
+    color:orange;
+}
+.punch span{
+    font-size:0.5em;
+    font-style:italic;
+    color:orange;
+}
+.punch{
+    margin-bottom:30px;
+}
+.category-tile img{
+    height:200px;
+    width:200px;
+}
+.category-tile{
+    position:relative;
+    border: 1px solid black;
+    overflow:hidden;
+    width:200px;
+    height:200px;
+    margin:0 25px 25px 25px;
+}
+.category-tile span{
+    position:absolute;
+    bottom:0;
+    right:0;
+    width:100%;
+    text-align:center;
+    font-size:1.5em;
+    text-transform:uppercase;
+    background-color: black;
+    opacity:0.7;
+    color:white;
+}
+.category-tile:hover{
+    box-shadow: 0 1px 5px 1px black;
+}
+.menu-content > div{
+    padding-left: 0;
+    padding-right: 0;
+}
 .jumbotron{
     padding:0;
     margin-top:15px;
@@ -114,6 +165,24 @@ section{
 }
 .card-footer{
     background-color: rgba(0,0,0,0.5);
+    margin-top:15px;
+    padding-top:30px;
+    padding-bottom:30px;
+    border-top:0;
+}
+.card-footer .row{
+    margin-bottom:25px;
+}
+#hours > span, #address > span{
+    font-size:1.3em;
+}
+#address p{
+    font-size:0.8 em;
+    line-height: 1.2;
+    color: lightgreen;
+}
+#testimonials{
+    font-style: italic;
 }
 /* Extra small devices (576px and less)*/
 @media (max-width: 575px){
@@ -143,7 +212,11 @@ section{
     #menu span, #specials span, #map span{
         font-size:1.5em;
     }
-
+    .category-tile, .category-tile img{
+        height:150px;
+        width:150px;
+        margin:0 auto 15px auto;
+    }
 }
 /* Small devices (landscape phones, 576px and up)*/
 @media (min-width: 576px) and (max-width: 767px){
